@@ -19,7 +19,7 @@ class App {
         /**
          * A CHOIX : utiliser un cercle ou un texte
          */
-        new Circle(i * 10, window.innerHeight / 2, 10, this.ctx)
+        new Circle(i * 10, window.innerHeight, 10, this.ctx)
         //new circle(i * 2, window.innerHeight / 2, this.ctx)
       );
     }
@@ -61,7 +61,7 @@ class App {
          * A CHOIX : modifier la position ou autre parametre
          */
         // this.allCircles[i].y = data[i] + window.innerHeight / 2 - 125;
-        this.allCircles[i].y = -data[i] * 6 + window.innerHeight * 0, 55;
+        this.allCircles[i].y = -data[i] * 6;
         // console.log(Math.abs(data[i] / 10));
         // this.allCircles[i].fontSize = -data[i] / 5;
       }
