@@ -35,8 +35,8 @@ function setup() {
   rayon = 400;
   bigRadius = 950;
   smallRadius = 700;
-  centerX = width/2 ;
-  centerY = height/2;
+  centerX = width / 2;
+  centerY = height / 2;
 
   // document.addEventListener("click", mousePressed);
 
@@ -57,8 +57,8 @@ function draw() {
   var posy = centerY + Math.sin(a2 * (Math.PI / 180)) * 300;
   var r = Math.abs(50 * Math.cos(a2 * (Math.PI / 180)));
 
-  if (posx >= width) {posx = width-r/2;}
-//if (color > 100); { color =+ 90;}
+  if (posx >= width) { posx = width - r / 2; }
+  //if (color > 100); { color =+ 90;}
 
 
   circle(posx, posy, r);
